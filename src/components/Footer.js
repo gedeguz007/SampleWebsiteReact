@@ -8,7 +8,7 @@ function Footer() {
     <div className='footer-container'>
       <section className='footer-subscription'>
         <p className='footer-subscription-heading'>
-          Join the Adventure newsletter to receive our best vacation deals
+          Join the ASPYRE newsletter to receive the latest info
         </p>
         <p className='footer-subscription-text'>
           You can unsubscribe at any time.
@@ -29,7 +29,7 @@ function Footer() {
         <div className='footer-link-wrapper'>
           <div class='footer-link-items'>
             <h2>About Us</h2>
-            <Link to='/sign-up'>How it works</Link>
+            <Link to='/sign-up'>Who We Are</Link>
             <Link to='/'>Testimonials</Link>
             <Link to='/'>Careers</Link>
             <Link to='/'>Investors</Link>
@@ -39,7 +39,7 @@ function Footer() {
             <h2>Contact Us</h2>
             <Link to='/'>Contact</Link>
             <Link to='/'>Support</Link>
-            <Link to='/'>Destinations</Link>
+            <Link to='/'>Join Our Team</Link>
             <Link to='/'>Sponsorships</Link>
           </div>
         </div>
@@ -47,8 +47,8 @@ function Footer() {
           <div class='footer-link-items'>
             <h2>Videos</h2>
             <Link to='/'>Submit Video</Link>
-            <Link to='/'>Ambassadors</Link>
-            <Link to='/'>Agency</Link>
+            <Link to='/'>Asypre Ambassadors</Link>
+            <Link to='/'>Workouts</Link>
             <Link to='/'>Influencer</Link>
           </div>
           <div class='footer-link-items'>
@@ -57,6 +57,8 @@ function Footer() {
             <Link to='/'>Facebook</Link>
             <Link to='/'>Youtube</Link>
             <Link to='/'>Twitter</Link>
+            <Link to='/'>LinkedIn</Link>
+            <Link to='/'>TikTok</Link>
           </div>
         </div>
       </div>
@@ -64,11 +66,11 @@ function Footer() {
         <div class='social-media-wrap'>
           <div class='footer-logo'>
             <Link to='/' className='social-logo'>
-              TRVL
+              ASPYRE
               <i class='fab fa-typo3' />
             </Link>
           </div>
-          <small class='website-rights'>TRVL © 2020</small>
+          <small class='website-rights'>ASPYRE © 2021</small>
           <div class='social-icons'>
             <Link
               class='social-icon-link facebook'
@@ -109,6 +111,14 @@ function Footer() {
               aria-label='LinkedIn'
             >
               <i class='fab fa-linkedin' />
+            </Link>
+            <Link
+              class='social-icon-link tiktok'
+              to='/'
+              target='_blank'
+              aria-label='TikTok'
+            >
+              <i class='fab fa-tiktok' />
             </Link>
           </div>
         </div>
