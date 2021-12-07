@@ -1,6 +1,7 @@
 import React from 'react';
 import '../../App.css';
+import HeroServices from '../HeroServices';
 
 export default function Services() {
-  return <h1 className='services'>SERVICES</h1>;
+  return <HeroServices />;
 }
