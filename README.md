@@ -1,3 +1,7 @@
+# About This Project
+
+This is my Capstone project for IT 228. It is a personal training and fitness website called Aspyre. Asypre was built using React and JavaScript. It is still under construction. 
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
